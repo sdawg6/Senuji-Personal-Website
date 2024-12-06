@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senuji's Travel Diary</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Arial";
+            font-size: 16px;
+            background-color: rgb(217, 217, 217);
+            color: black;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(217, 217, 217);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Title Section Styles */
+        .title-section {
+            text-align: center;
+            padding: 6rem 0;
+            background-color: #ffefd5;
+        }
+
+        .title-section h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        /* Individual Section Styles */
+        section {
+            padding: 3rem 1rem;
+            height: auto;
+        }
+
+        #about-me {
+            background-color: #b8b51d;
+        }
+
+        #sri-lanka {
+            background-color: #423711;
+            color: white;
+        }
+
+        #alberta {
+            background-color: #bbb5a7;
+        }
+
+        #switzerland {
+            background-color: #8b2e25;
+            color: white;
+        }
+
+        #france {
+            background-color: #787254;
+            color: white;
+        }
+
+        #wishlist {
+            background-color: white;
+            color: black;
+        }
+
+        /* Table Styling */
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1rem 0;
+            border-radius: 10px; 
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 20px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Content Spacing & Layout */
+        section h3 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        section img {
+            display: block;
+            margin: 1rem auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .future-destinations-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .future-destinations img {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Scroll Behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about-me">About Me</a>
+        <a href="#sri-lanka">Sri Lanka</a>
+        <a href="#alberta">Alberta</a>
+        <a href="#switzerland">Switzerland</a>
+        <a href="#france">France</a>
+        <a href="#wishlist">Wishlist</a>
+    </div>
+
+    <!-- Title Section -->
+    <div class="title-section">
+        <h1>Senuji's Travel Diary</h1>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h3>About Me</h3>
+        <p>Traveling has always been a way for me to explore new perspectives and create unforgettable memories. Some of my happiest moments in my life thus far have been exploring the world. I love discovering unique cultures, trying local cuisines, and meeting people whose stories shape the places they call home. This diary is a reflection of my adventures—both past and those I dream of embarking on.</p>
+        <img src="https://via.placeholder.com/200" alt="About Me Photo">
+    </section>
+
+    <!-- Sri Lanka Section -->
+    <section id="sri-lanka">
+        <h3>Sri Lanka</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Sri Lanka Photo">
+        <table>
+            <tr>
+                <th>Year Visited</th>
+                <th>Best Memory</th>
+                <th>Favourite Attraction</th>
+            </tr>
+            <tr>
+                <td>July 2023</td>
+                <td>Driving A TukTuk</td>
+                <td>Sigiriya</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Alberta Section -->
+    <section id="alberta">
+        <h3>Alberta, Canada</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Alberta Photo">
+        <table>
+            <tr>
+                <th>Year Visited</th>
+                <th>Best Memory</th>
+                <th>Favourite Attraction</th>
+            </tr>
+            <tr>
+                <td>August 2022</td>
+                <td>Hiking Through Banff National Park</td>
+                <td>Lake Louise</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Switzerland Section -->
+    <section id="switzerland">
+        <h3>Switzerland</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Switzerland Photo">
+        <table>
+            <tr>
+                <th>Year Visited</th>
+                <th>Best Memory</th>
+                <th>Favourite Attraction</th>
+            </tr>
+            <tr>
+                <td>July 2024</td>
+                <td>Hiking Stabbauch Falls</td>
+                <td>The Mountains Of Lauterbrunnen</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- France Section -->
+    <section id="france">
+        <h3>France</h3>
+        <img src="https://via.placeholder.com/800x400" alt="France Photo">
+        <table>
+            <tr>
+                <th>Year Visited</th>
+                <th>Best Memory</th>
+                <th>Favourite Attraction</th>
+            </tr>
+            <tr>
+                <td>June 2025</td>
+                <td>Exploring the Eiffel Tower</td>
+                <td>The Louvre</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Wishlist Section -->
+    <section id="wishlist">
+        <h3>Future Destinations</h3>
+        <div class="future-destinations-container">
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Japan">
+                <p>Japan</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Brazil">
+                <p>Brazil</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Turkey">
+                <p>Turkey</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
