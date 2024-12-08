@@ -8,15 +8,14 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Goblin+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coda:wght@400;800&family=Goblin+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   
     <style>
         body {
             margin: 0;
-            font-family: "Roboto", sans-serif; /* Apply Roboto to body text */
+            font-family: "Roboto", sans-serif;
             font-size: 16px;
             background-color: rgb(217, 217, 217);
-            color: black;
         }
 
         /* Navbar Styles */
@@ -50,28 +49,48 @@
 
         /* General Heading Styles */
         h1, h3 {
-            font-family: "Goblin One", serif; /* Apply Goblin One to all headings */
+            font-family: "Black Han Sans", sans-serif; /* Apply Goblin One to all headings */
         }
 
+        /* Title Styles */
         .title-section h1 {
             margin: 0;
-            font-size: 2.5rem;
+            letter-spacing: 8px;
             color: #333;
+        }
+
+        .title-section h1 span.senuji {
+            font-size: 2.8rem;
+            display: inline-block;
+            margin-bottom: 10px; 
+            color: #4F659B;
+            border: 5px solid #333;
+            border-radius: 65px;
+            padding: 8px 25px;
+        }
+
+        .title-section h1 span.travel {
+            font-size: 4rem;
         }
 
         /* Individual Section Styles */
         section {
+            font-size: 1.8rem;
             padding: 3rem 1rem;
             height: auto;
+          
         }
 
         #about-me {
             background-color: #FFFFFF;
+          
         }
 
         #sri-lanka {
             background-color: #FFF6EB;
             color: white;
+                        
+
         }
 
         #alberta {
@@ -157,7 +176,7 @@
 
     <!-- Title Section -->
     <div class="title-section">
-        <h1>Senuji's<br>Travel Diary</h1>
+        <h1><span class="senuji">Senuji's</span><span class="travel">Travel Diary</span></h1>
     </div>
 
     <!-- About Me Section -->
@@ -165,7 +184,7 @@
         <h1 style="text-align:center;">About Me</h1>
         <div style="display: flex; align-items: center; justify-content: center; gap: 2rem;">
             <img src="https://via.placeholder.com/300x200" alt="About Me Photo" style="border-radius: 8px; max-width: 100%; height: auto;">
-            <p style="max-width: 600px; font-size: 1.1rem; color: white;">Welcome to my personal travel diary! This space is all about sharing the places that have captured my heart and those that are still on my bucket list (because why not dream big?). From the incredible cultures I’ve experienced, to the flavors I’ve savored, and the amazing people I’ve met along the way — each adventure holds a special memory. I'll be sharing pictures from each of my journeys so you can see the world through my eyes. Join me as I take you through my adventures, and invite you to dream alongside me about the destinations still to come.</p>
+            <p style="max-width: 600px; font-size: 1.1rem; color: #FFF6EB;">Welcome to my personal travel diary! This space is all about sharing the places that have captured my heart and those that are still on my bucket list (because why not dream big?). From the incredible cultures I’ve experienced, to the flavors I’ve savored, and the amazing people I’ve met along the way — each adventure holds a special memory. I'll be sharing pictures from each of my journeys so you can see the world through my eyes. Join me as I take you through my adventures, and invite you to dream alongside me about the destinations still to come.</p>
         </div>
     </section>
 
