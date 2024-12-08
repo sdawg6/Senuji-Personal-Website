@@ -15,7 +15,6 @@
             margin: 0;
             font-family: "Roboto", sans-serif;
             font-size: 16px;
-            background-color: rgb(217, 217, 217);
         }
 
         /* Navbar Styles */
@@ -49,7 +48,8 @@
 
         /* General Heading Styles */
         h1, h3 {
-            font-family: "Black Han Sans", sans-serif; /* Apply Goblin One to all headings */
+            font-family: "Merriweather", sans-serif;
+            font-weight: 800;
         }
 
         /* Title Styles */
@@ -61,12 +61,13 @@
 
         /* Section title borders */
         section h1 {
-            display: inline-block;
-            padding: 10px 25px;  
-            border: 5px solid #2C2C2D; 
-            border-radius: 65px; 
-            color: #4F659B; 
-           
+            font-size: 2.8rem;
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+            border: 3px solid #333;
+            border-radius: 65px;
+            padding: 4px 25px;
         }
 
         /* Individual Section Styles */
@@ -74,52 +75,56 @@
             font-size: 1.8rem;
             padding: 3rem 1rem;
             height: auto;
+            text-align: center;
+          
         }
       
       .title-section h1 {
             margin: 0;
             letter-spacing: 8px;
-            color: #333;
         }
 
         /* Senuji's span styles */
         .title-section h1 span.senuji {
             font-size: 2.8rem;
-            display: inline-block;
-            margin-bottom: 10px;
+            display: block;
+            width: 250px;
+            margin: auto;
+            margin-bottom: 20px;
             color: #4F659B;
-            border: 5px solid #333;
+            border: 3px solid #333;
             border-radius: 65px;
-            padding: 8px 25px;
+            padding: 4px 25px;
         }
 
         #about-me {
             background-color: #FFFFFF;
+            color: #FFF6EB;
         }
 
         #sri-lanka {
             background-color: #FFF6EB;
-            color: white;
+            color: #4F659B;
         }
 
         #alberta {
             background-color: #2C6E49;
-            color: white;
+            color: #FFF6EB;
         }
 
         #switzerland {
             background-color: #FFF6EB;
-            color: white;
+            color: #4F659B;
         }
 
         #france {
             background-color: #2C6E49;
-            color: white;
+            color: #FFF6EB;
         }
 
         #upcoming-adventures {
             background-color: #FFF6EB;
-            color: black;
+            color: #4F659B;
         }
 
         /* Table Styling */
@@ -185,7 +190,8 @@
 
     <!-- Title Section -->
     <div class="title-section">
-        <h1><span class="senuji">Senuji's</span><span class="travel">Travel Diary</span></h1>
+        <h1><span class="senuji">Senuji's</span><span 
+        class="travel">Travel Diary</span></h1>
     </div>
 
     <!-- About Me Section -->
@@ -275,15 +281,15 @@
         <div class="upcoming-adventures-container">
             <div>
                 <img src="https://via.placeholder.com/300x200" alt="Japan">
-                <p>Japan</p>
+              <p style="color:#2C2C2D">Japan</p>
             </div>
             <div>
                 <img src="https://via.placeholder.com/300x200" alt="Brazil">
-                <p>Brazil</p>
+                <p style="color:#2C2C2D">Brazil</p>
             </div>
             <div>
                 <img src="https://via.placeholder.com/300x200" alt="Turkey">
-                <p>Turkey</p>
+                <p style="color:#2C2C2D">Turkey</p>
             </div>
         </div>
     </section>
