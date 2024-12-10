@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
         .navbar {
             display: flex;
             justify-content: center;
-            background-color: #2C2C2D;
+            background-color: #1E2B12;
             padding: 1rem 0;
             position: sticky;
             top: 0;
@@ -44,6 +44,7 @@
             text-align: center;
             padding: 4rem 0;
             background-color: #FFF6EB;
+            color: #1E2B12;
         }
 
         /* General Heading Styles */
@@ -65,7 +66,7 @@
             display: block;
             margin: auto;
             margin-bottom: 25px;
-            border: 3px solid #333;
+            border: 3px solid #94A565;
             border-radius: 65px;
             padding: 10px 25px;
         }
@@ -91,40 +92,40 @@
             width: 300px;
             margin: auto;
             margin-bottom: 20px;
-            color: #4F659B;
+            color: #446129;
             border: 3px solid #333;
             border-radius: 65px;
             padding: 4px 25px;
         }
 
         #about-me {
-            background-color: #FFFFFF;
+            background-color: #446129;
             color: #FFF6EB;
         }
 
         #sri-lanka {
             background-color: #FFF6EB;
-            color: #4F659B;
+            color: #446129;
         }
 
         #alberta {
-            background-color: #2C6E49;
+            background-color: #446129;
             color: #FFF6EB;
         }
 
         #switzerland {
             background-color: #FFF6EB;
-            color: #4F659B;
+            color: #446129;
         }
 
         #france {
-            background-color: #2C6E49;
+            background-color: #446129;
             color: #FFF6EB;
         }
 
         #upcoming-adventures {
             background-color: #FFF6EB;
-            color: #4F659B;
+            color: #446129;
         }
 
         /* Table Styling */
@@ -175,6 +176,12 @@
             height: auto;
         }
 
+        /* Image below title */
+        .title-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -194,30 +201,33 @@
         class="travel">Travel Diary</span></h1>
     </div>
 
+    <!-- Image Below the Title -->
+    <img src="Title.png" alt="Travel Image" class="title-image">
+
    <!-- About Me Section -->
-<section id="about-me" style="background-color: #2C6E49; padding: 3rem 1rem;">
+<section id="about-me" style="padding: 3rem 1rem;">
     <h1>About Me</h1>
     <div style="display: flex; align-items: center; justify-content: center; gap: 2rem;">
-        <img src="About Me[1].png" alt="Photo of Senuji" width="400" height="auto" style="border-radius: 8px;">
+        <img src="About Me.png" alt="Photo of Senuji" width="400" height="auto" style="border-radius: 8px;">
         <p style="max-width: 600px; font-size: 1.1rem; color: #FFF6EB;">Welcome to my personal travel diary! This space is all about sharing the places that have captured my heart and those that are still on my bucket list (because why not dream big?). From the incredible cultures I’ve experienced, to the flavors I’ve savored, and the amazing people I’ve met along the way — each adventure holds a special memory. If you'd like to get in touch, feel free to <a href="mailto:sthennak@uwaterloo.ca">email me</a>. Also, if you're planning your next trip, I highly recommend checking out <a href="https://www.expedia.ca" target="_blank">Expedia.ca</a> for great travel deals and recommendations. I'll be sharing pictures from each of my journeys so you can see the world through my eyes. Join me as I take you through my adventures, and invite you to dream alongside me about the adventures still to come.</p>
     </div>
 
     <!-- New Floating Images Section Below -->
     <div class="clearfix" style="padding-top: 2rem; text-align: center;">
         <div class="img-container">
-            <img src="https://via.placeholder.com/400x300" alt="Placeholder Image 1" style="width: 100%; height: auto;">
+            <img src="AirPods.png" alt="Placeholder Image 1" style="width: 100%; height: auto;">
         </div>
         <div class="img-container">
-            <img src="https://via.placeholder.com/400x300" alt="Placeholder Image 2" style="width: 100%; height: auto;">
+            <img src="Kodak.png" alt="Placeholder Image 2" style="width: 100%; height: auto;">
         </div>
         <div class="img-container">
-            <img src="https://via.placeholder.com/400x300" alt="Placeholder Image 3" style="width: 100%; height: auto;">
+            <img src="Vaseline.png" alt="Placeholder Image 3" style="width: 100%; height: auto;">
         </div>
     </div>
 
     <!-- Clearfix Hack to Maintain Flow -->
     <p style="font-size: 1.1rem; color: #FFF6EB; padding-top: 20px;">
-      These are my three must-have travel essentials, no matter where I’m traveling. My Kodak film camera is my window to the world, capturing every special moment you see in this diary with a nostalgic, timeless touch. I never leave home without my AirPods, because music is basically my travel sidekick, making even the longest flights feel like a private concert. And I NEVER forget my Vaseline — it’s my secret weapon for everything from dry lips to random travel emergencies. These three essentials are all I need to stay ready for anything.
+      These are my three must-have travel essentials, no matter where I’m traveling. My Kodak film camera is my window to the world, capturing every special moment you see in this diary with a nostalgic, timeless touch. I never leave home without my AirPods, as music is my travel companion, turning any journey into a soundtrack of memories.  And I NEVER forget my Vaseline — it’s my secret weapon for everything from dry lips to random travel emergencies. These three essentials are all I need to stay ready for anything.
     </p>
 </section>
 
@@ -261,7 +271,7 @@
     <!-- Alberta Section -->
     <section id="alberta">
         <h1 style="text-align:center;">Alberta, Canada</h1>
-        <img src="Alberta[3].png" alt="Alberta Photo">
+        <img src="Alberta.png" alt="Alberta Photo">
         <table>
             <tr>
                 <th>Year Visited</th>
